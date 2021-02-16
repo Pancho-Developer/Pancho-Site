@@ -10,7 +10,7 @@ body {
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url(../img/headerubik.jpg);
+    background-image: url(../img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -59,6 +59,33 @@ body {
 line-height: 1.7;
 margin-top: 1rem;
 
+}
+.img-html {
+    width: 150px;
+    margin-right: 100px;
+}
+.img-css {
+    width: 150px;
+    margin-right: 0px;
+}
+.img-js {
+    width: 150px;
+    margin-right: 0px;
+}
+.img-py {
+width: 150px;
+margin-top: 40px;
+}
+.img-php {
+    width: 150px;
+    margin-top: 100px;
+}
+.img-njs {
+    width: 150px;
+    margin-top: 40px;
+    }
+.presentacion {
+margin-top: 12px;
 }
 .container {
     max-width: 960px;
