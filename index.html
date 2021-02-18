@@ -23,19 +23,30 @@
 <body>
     
     <!-- Header -->
-    <header class="header">
+    <nav>
+        <div class="nav-container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#lenguajes">Lenguajes</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="header" id="home">
         
         <div class="header-content animate__bounce">
+            <div class="logo-container">
             <img src="img/logo_tux.png" alt="Logo" class="logo">
-            <h3 class="title">Tux</h3>
+            <h3 class="title" >Tux</h3>
             <p class="text">Mi nombre es Tux, soy un desarrollador en proceso, y trato de expandir mis conocimientos dia a dia.</p>
-
+</div>
 
         </div>
     </header>
     <!-- News-->
     <section class="about">
-        <h3 class="text-notices-1">¡Todas las semanas, Increibles Noticias!</h3>
+        <h3 class="text-notices-1" id="noticias">¡Todas las semanas, Increibles Noticias!</h3>
 
         <div class="container text-center">
             <div class="grid-3">
@@ -78,8 +89,10 @@
      
       </section>
       <!-- END NEWS-->
-        <!-- CSS -->
+      
+        <!-- ABOUT NEWS -->
   <section class="about bg-light">
+        <h3 class="text-notices-1">¡Todas las semanas, Increibles Noticias!</h3>
     <div class="container text-center">
         <div class="grid-2">
             <div class="center">
@@ -96,9 +109,57 @@
         </div>
     </div>
   </section>
-
+  <!--  HERRAMIENTAS -->
+  <h3 class="text-notices-1" id="recursos">Recursos</h3>
+  <div class="margenes">
+  <p class="text-center" class="margenes">Como desarrolladores siempre buscamos la manera mas sencilla de hacer nuestros proyectos, por ello, ciertas personas han hecho sitios web con increíbles recursos que podemos usar para facilitar nuestro trabajo.</p>
+   </div>
+  <section class="about">
+    <div class="container text-center">
+        <div class="grid-2">
+          
+            <div>
+             <h3 class="title">Google Fonts</h3>
+             <p>Seguramente siempre has buscado la fuente especifica para tu Sitio Web, pues con Google Fonts puedes encontrar la ideal. Google Fonts tiene un gran numero de fuentes de libre uso, solo debes seleccionar la que mas te guste y te dara la opcion de copiar la etiqueta link, o el import en el CSS de tu web. Con esto solo deberas seleccionarlo como Fuente predeterminada si es que la quieres para toda tu web, sin duda, una muy buena y util.</p>
+             <br><br>
+             <p><a href="https://fonts.google.com/" target="_blank">Link</a></p>
+            </div>
+            <div class="center">
+                <i class="fas fa-html5 fa-10x"></i>
+              
+                    <img src="img/googlefonts.png" class="img-gf" class="img-notices" alt="Google Fonts">
+                
+            </div>
+            <div>
+                <h3 class="title">Font Awesome</h3>
+                <p>Font Awesome es un conjunto de herramientas de fuentes e iconos basado en CSS y Less. Fue hecho por Dave Gandy para su uso con Bootstrap, y luego se incorporó a BootstrapCDN.</p>
+              <br><br>
+              <p><a href="https://fontawesome.com/" target="_blank">Link</a></p>   
+            </div>
+               <div class="center">
+                   <i class="fas fa-html5 fa-10x"></i>
+                 
+                       <img src="img/fonta.png" class="img-gf" class="img-notices" alt="Google Fonts">
+                   
+               </div>
+        </div>
+    </div>
+   
+  </section>
+  <section class="about bg-light">
+    <div class="container text-center">
+        <div class="grid-2">
+            <div class="center">
+           
+         
+            </div>
+          
+        </div>
+    </div>
+  </section>
+      <!---->
  <div class="presentacion">
- <h3 class="title text-center">Lenguajes de Programación</h3>
+ <h3 class="title text-center" id="lenguajes">Lenguajes de Programación</h3>
     </div>
         <!-- HTML -->
     <section class="about">
@@ -118,7 +179,6 @@
             </div>
         </div>
        
-      </section>
     <!-- CSS -->
   <section class="about bg-light">
     <div class="container text-center">
@@ -204,7 +264,7 @@
         <h3 class="title">Comunidad</h3>
         <div class="container grid-2">
         <div>
-            <a href="https://www.instagram.com/pancho_speedcuber/"><i class="fab fa-instagram fa-5x"></i></a>
+            <a href="https://www.instagram.com/tux_code/"><i class="fab fa-instagram fa-5x"></i></a>
               <h3>Instagram</h3>
            <p>Sigueme en mi Instagram!</p>
             </div>
